@@ -1,0 +1,61 @@
+{
+    "code": 
+        {
+            "server_error": "Sorry something went wrong!please try again!",
+            "bad_request":"Bad Request!",
+            "unauthorised":"Unauthorised!",
+            "not_found":"Sorry the requested url is not found on this server!"
+           
+        },
+    "shipping_address": 
+        {
+            "valid": "Valide address!",
+            "invalid":"Invalid shipping address!!",
+            "address_not_added": "Failed to fetch default address,make sure you have a default address!",
+            "no_shipping":"Sorry,There is no shipping to the address you have entered!",
+            "not_found":"Sorry the requested url is not found on this server!"
+           
+        },
+    "store_access_key":
+	    {
+	    	"valid":"Valid store access key!",
+	    	"invalid":"Invalid store access key!",
+	    	"failed_to_add": "failed to add store access key , Please try again later!",
+	    	"add_store_url_failed": "Failed to Update store url to Tapify!",
+	    	"connected":"Store successfully connected!"
+	    },
+    "order":
+	    {
+	    	"success":"Your order has been placed!"
+	    },
+    "jwt":
+	    {
+	    	"missing":"Missing jwt token OR store access key!"
+
+	    },
+    "cart":
+	    {
+	    	"empty":"Your cart is empty!",
+	    	"cookie_missing":"Cart cookie missing!",
+	    	"product_added":"product add to cart successfully!",
+	    	"product_not_added":"failed to add Products to cart!",
+	    	"key_missing":"Missing cart key",
+	    	"product_removed":"Product successfully removed from cart",
+	    	"product_failed_to_remove":"Product failed to removed from cart"
+	    },
+    "cart_collection":
+	    {
+	    	"success": "Button log updated succesfully!",
+	    	"failed": "Failed to update the button log!" 
+	    },
+	"settings" :
+	    {
+	    	"language_switched_success":"Language switched successfully!",
+	    	"language_switched_failes":"Failed to switch Language!",
+	    	"title":"Tapify Settings",
+	    	"select_language_label":"Select Language",
+	    	"missing_language":"Please seleect one language!",
+	    	"language_not_found":"Sorry curreently we have no support for the selected language!"
+	    }
+}
+
